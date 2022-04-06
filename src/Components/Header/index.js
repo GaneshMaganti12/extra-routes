@@ -18,6 +18,7 @@ export default function Header(){
             <Link to="/workouts" className="link"><p className="nav-items">Workouts</p></Link>
             <Link to="/about" className="link"><p className="nav-items">About</p></Link>
             <Link to="/contact" className="link"><p className="nav-items">Contact Us</p></Link>
+            <Link to="/cart" className="link"><p className="nav-items">Cart</p></Link>
             <button type="button" className="logout-button" onClick={logout}>Logout</button>
           </div>
         </div>
